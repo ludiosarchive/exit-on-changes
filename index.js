@@ -1,10 +1,10 @@
 var fs = require('fs');
 
-if(process.env.EXIT_ON_CHANGES) {
-	console.log("In development mode, will exit on file changes in cwd");
+if(Number(process.env.EXIT_ON_CHANGES)) {
+	console.log("[exit-on-changes] EXIT_ON_CHANGES enabled");
 	fs.watch('.', {}, function(ev, filename) {
-		if(/\.js$/.test(filename)) {
-			console.log("Exiting because:", ev, filename);
+		if(/\.(jsx?|es6?)$/.test(filename)) {
+			console.log("[exit-on-changes] Exiting after:", ev, filename);
 			process.exit(0);
 		}
 	})
