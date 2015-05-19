@@ -2,7 +2,6 @@ exit-on-changes
 ===
 
 [![NPM version][npm-image]][npm-url]
-[![Build status][travis-image]][travis-url]
 
 exit-on-changes quits your node/io.js program when changes to source
 files are detected, leaving the parent process or shell to actually
