@@ -1,6 +1,6 @@
 {
   "name": "exit-on-changes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Exit a node/io.js process when changes to source files in the current directory are detected",
   "main": "index.js",
   "repository": {
@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/ludios/exit-on-changes/issues"
   },
-  "homepage": "https://github.com/ludios/exit-on-changes"
+  "homepage": "https://github.com/ludios/exit-on-changes",
+  "dependencies": {
+    "chokidar": "^1.0.1"
+  }
 }
