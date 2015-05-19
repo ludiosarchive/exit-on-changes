@@ -2,6 +2,7 @@
   "name": "exit-on-changes",
   "version": "0.0.2",
   "description": "Exit a node/io.js process when changes to source files in the current directory are detected",
+  "keywords": ["restart", "reload", "reloading"],
   "main": "index.js",
   "repository": {
     "type": "git",
