@@ -40,7 +40,7 @@ Then start your program with the environmental variable `EXIT_ON_CHANGES_ENABLED
 
 This will exit on changes to source files in the current directory.  To actually
 have the program restart in a loop, use this
-[restarter()](https://github.com/ludios/uSanity/blob/master/files/etc/zsh/zshrc-cont#L107)
+[`restarter()`](https://github.com/ludios/uSanity/blob/master/files/etc/zsh/zshrc-cont#L107)
 function for zsh, or write a similar loop.
 
 Example:
