@@ -44,7 +44,7 @@ function for zsh, or write a similar loop.
 
 Example:
 
-```zsh
+```
 restarter EXIT_ON_CHANGES_ENABLED=1 iojs app.js
 ```
 

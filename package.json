@@ -1,6 +1,6 @@
 {
   "name": "exit-on-changes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Exit a node/io.js process when changes to source files in the current directory are detected",
   "keywords": ["restart", "reload", "reloading"],
   "main": "index.js",
